@@ -50,3 +50,16 @@ body {
   cursor: pointer;
 }
 
+.keypad.valid {
+  border-color: green;
+}
+
+.keypad.invalid {
+  border-color: red;
+}
+
+.message {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
