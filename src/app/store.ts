@@ -1,7 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit';
+import {pinReducer} from '../containers/Keypad/pinSlice';
 
 export const store = configureStore({
   reducer: {
+    pin: pinReducer,
   }
 });
 
