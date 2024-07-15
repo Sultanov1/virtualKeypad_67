@@ -1,7 +1,10 @@
+import './App.css';
+import Keypad from './containers/Keypad/Keypad';
+
 const App = () => {
   return (
-    <div>
-      Attractor the best!!!
+    <div className="App">
+      <Keypad/>
     </div>
   );
 };
